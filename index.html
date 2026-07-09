@@ -71,6 +71,9 @@
   .who{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:18px;color:var(--mut);font-size:14px;text-align:center}
   .who .av{width:40px;height:40px;border-radius:50%;background:linear-gradient(120deg,var(--red),var(--cta));display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff;flex-shrink:0}
   .caselink{display:block;text-align:center;margin-top:22px;color:#ffe27a;font-weight:700;text-decoration:none}
+  .gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:26px}
+  .gallery img{width:100%;border-radius:12px;border:1px solid var(--line);display:block;aspect-ratio:9/16;object-fit:cover}
+  @media(max-width:760px){.gallery{grid-template-columns:repeat(2,1fr)}}
 
   /* FORM */
   .formwrap{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:14px;margin-top:8px;box-shadow:0 30px 80px rgba(0,0,0,.55)}
@@ -148,6 +151,16 @@
         <img src="images/ladonuts-analytics.jpg" alt="LA Donuts analytics: 13.5M views, 759k likes">
       </div>
       <div class="who"><span class="av">LD</span><div><b style="color:#fff">LA Donuts</b> · Frida, Owner · 15M+ views · 30k+ new followers</div></div>
+    </div>
+    <div class="gallery">
+      <img src="images/proof-kerbside-2m.jpg" alt="Kerbside Eatery: 2 million+ views in the first month, 12 videos">
+      <img src="images/proof-3m-views.jpg" alt="Client reel hitting 3 million views">
+      <img src="images/proof-olivia-348k.jpg" alt="Olivia Truong: 348k views in the last 30 days">
+      <img src="images/proof-firsttimer-167k.jpg" alt="First-time client reel: 167k views">
+      <img src="images/proof-olivia-leads.jpg" alt="Client getting leads and opportunities without chasing them">
+      <img src="images/proof-600-to-5k.jpg" alt="From 600 to 5,000 viewers per post">
+      <img src="images/proof-wins-collage.jpg" alt="Client wins across multiple local businesses">
+      <img src="images/proof-personal-brand.jpg" alt="Personal brand client growth: 52k views">
     </div>
     <a class="caselink" href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTI2MDY2OTQxMTk5MTI3?story_media_id=3804757399564300065&igsh=dWV2ZzBjZ2xhZTNv" target="_blank" rel="noopener">See more client results on Instagram &rarr;</a>
   </div>
